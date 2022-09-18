@@ -1,0 +1,65 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Combo', cursive;
+}
+.container-title {
+    background-image: url(../assets/design1_image1.jpg);
+    width: 80vw;
+    height: 40vh;
+    background-position-y: 26%;
+    background-size: cover;
+    margin: auto;
+    margin-top: 12vh;
+    font-size: 25px;
+    position: relative;
+}
+.logo {
+    height: 100px;
+    width: 100px;
+    position:absolute;
+    top: 85%;
+    right: 5%;
+    filter: drop-shadow(2px 5px 5px #222);
+}
+h2 {
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin-top: 0;
+    width: 80vw;
+    height: 30px;
+    margin: auto;
+}
+h4 {
+    margin: 0;
+}
+ul {
+    margin: 0;
+    width: 100px;
+}
+ul >li {
+    list-style-type: none;
+    margin-bottom: 30px;
+}
+.main {
+    display: flex;
+}
+.text {
+    margin-top: 30px;
+}
+.navbar {
+    margin-top: 30px;
+    padding-left: 100px;
+    padding-right: 50px;
+    display: flex;
+}
+p {
+    padding-right: 120px;
+    padding-bottom: 20px;
+    margin: 0;
+}
+.textindent {
+    text-indent: 2rem;
+}

@@ -161,3 +161,62 @@ p {
     padding-left: 40px;
 
 }
+
+
+table {
+    margin: 40px 0;
+}
+th, td {
+    padding: 5px 40px 5px 0px;
+    text-align: left;
+    vertical-align:middle;
+}
+
+p > span {
+    font-weight: bolder;
+}
+
+.gameinfo-display {
+    margin-top: 35px;
+}
+
+.gameinfo-display > h3 {
+    margin: 0;
+    padding: 0 0 20px 200px ;
+    font-size: 32px;
+}
+.gameinfo-display > h4 {
+    margin-top: 0%;
+    font-style: italic;
+}
+.gameinfo-display > h5 {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.gameinfo-display > p {
+    padding-bottom: 15px;
+}
+.date {
+    text-align: right;
+}
+
+.september {
+    padding: 5px 25px 5px 0px
+}
+
+.gameinfo-div1 {
+    padding: 20px 350px 20px 0;
+}
+
+.gameinfo-div1 > p {
+    padding-bottom: 15px;
+}
+
+.gameinfo-div2 {
+    display: flex;
+}
+
+.gameinfo-div2 > p {
+    padding-right: 180px;
+}

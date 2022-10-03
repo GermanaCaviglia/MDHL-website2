@@ -166,13 +166,15 @@ p {
 table {
     margin: 40px 0;
 }
-th, td {
+
+th,
+td {
     padding: 5px 40px 5px 0px;
     text-align: left;
-    vertical-align:middle;
+    vertical-align: middle;
 }
 
-p > span {
+p>span {
     font-weight: bolder;
 }
 
@@ -180,23 +182,26 @@ p > span {
     margin-top: 35px;
 }
 
-.gameinfo-display > h3 {
+.gameinfo-display>h3 {
     margin: 0;
-    padding: 0 0 20px 200px ;
+    padding: 0 0 20px 200px;
     font-size: 32px;
 }
-.gameinfo-display > h4 {
+
+.gameinfo-display>h4 {
     margin-top: 0%;
     font-style: italic;
 }
-.gameinfo-display > h5 {
+
+.gameinfo-display>h5 {
     font-style: italic;
     text-decoration: underline;
 }
 
-.gameinfo-display > p {
+.gameinfo-display>p {
     padding-bottom: 15px;
 }
+
 .date {
     text-align: right;
 }
@@ -209,7 +214,7 @@ p > span {
     padding: 20px 350px 20px 0;
 }
 
-.gameinfo-div1 > p {
+.gameinfo-div1>p {
     padding-bottom: 15px;
 }
 
@@ -217,64 +222,74 @@ p > span {
     display: flex;
 }
 
-.gameinfo-div2 > p {
+.gameinfo-div2>p {
     padding-right: 180px;
 }
-
-
-
-
-
 
 form {
     margin-top: 40px;
     width: 80%;
 }
 
-.name_lastname, .location , .personalinfo{
+.name_lastname,
+.location,
+.personalinfo {
     display: flex;
 }
 
-.first_name, .last_name, .city , .zip_code , .birth_date , .gender {
+.first_name,
+.last_name,
+.city,
+.zip_code,
+.birth_date,
+.gender {
     display: flex;
     width: 50%;
     margin-top: 2vw;
 }
 
-.first_name > input {
+.first_name>input {
     width: 65%;
 }
-.last_name > input {
+
+.last_name>input {
     width: 75%;
 }
-.street_address > input {
+
+.street_address>input {
     width: 84%;
 }
-.city > input {
+
+.city>input {
     width: 90%;
 }
-.zip_code > input {
+
+.zip_code>input {
     width: 78%;
 }
-.birth_date > input {
+
+.birth_date>input {
     width: 56%;
 }
 
-.street_address, .grades {
+.street_address,
+.grades {
     margin-top: 2vw;
 }
 
-.signature > input {
+.signature>input {
     width: 35%;
 }
+
 .lists {
     display: flex;
 }
 
-.list1, .list2{
+.list1,
+.list2 {
     width: 30%;
 }
- 
+
 input {
     border-style: none;
     border-bottom: #222 solid 1px;
@@ -282,23 +297,24 @@ input {
 
 label[for="gender"] {
     padding-right: 15px;
-    
-}
-form > h3 {
-    margin-top: 0;
-    font-size: 2.5vw;
-    margin-bottom: 1vw;
-    margin-left: 280px;
+
 }
 
-form > h4 {
+form>h3 {
+    margin-top: 0;
     font-size: 2vw;
+    margin-bottom: 1vw;
+    margin-left: 310px;
+}
+
+form>h4 {
+    font-size: 1.5vw;
     padding-top: 2vw;
 }
 
-form > h5 {
+form>h5 {
     margin: 0%;
-    font-size: 1.5vw;
+    font-size: 1vw;
     padding-top: 1vw;
 }
 
@@ -310,9 +326,10 @@ form > h5 {
     margin-top: 1vw;
 }
 
-form > p {
+form>p {
     padding-top: 1vw;
 }
+
 button {
     margin: 0%;
     padding: 10px 20px;
@@ -323,6 +340,7 @@ button {
     color: white;
     border-radius: 10px;
 }
+
 button:hover {
     background-color: rgb(163, 161, 161);
     color: black;
@@ -332,9 +350,7 @@ button:hover {
     cursor: pointer;
 }
 
-
 .button {
     display: flex;
     justify-content: right;
-   
 }

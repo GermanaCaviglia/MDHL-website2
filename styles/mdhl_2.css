@@ -210,6 +210,10 @@ p>span {
     padding: 5px 25px 5px 0px
 }
 
+.locations {
+    text-align: center;
+}
+
 .gameinfo-div1 {
     padding: 20px 350px 20px 0;
 }
@@ -336,14 +340,14 @@ button {
     font-size: 17px;
     font-weight: 700;
     font-family: inherit;
-    background-color: black;
+    background-color: #4270c5;
     color: white;
     border-radius: 10px;
 }
 
 button:hover {
-    background-color: rgb(163, 161, 161);
-    color: black;
+
+    background-color: #70ad46;
     border: solid 1px black;
     transition: 500ms;
     font-size: larger;

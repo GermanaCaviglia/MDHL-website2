@@ -222,3 +222,119 @@ p > span {
 }
 
 
+
+
+
+
+form {
+    margin-top: 40px;
+    width: 80%;
+}
+
+.name_lastname, .location , .personalinfo{
+    display: flex;
+}
+
+.first_name, .last_name, .city , .zip_code , .birth_date , .gender {
+    display: flex;
+    width: 50%;
+    margin-top: 2vw;
+}
+
+.first_name > input {
+    width: 65%;
+}
+.last_name > input {
+    width: 75%;
+}
+.street_address > input {
+    width: 84%;
+}
+.city > input {
+    width: 90%;
+}
+.zip_code > input {
+    width: 78%;
+}
+.birth_date > input {
+    width: 56%;
+}
+
+.street_address, .grades {
+    margin-top: 2vw;
+}
+
+.signature > input {
+    width: 35%;
+}
+.lists {
+    display: flex;
+}
+
+.list1, .list2{
+    width: 30%;
+}
+ 
+input {
+    border-style: none;
+    border-bottom: #222 solid 1px;
+}
+
+label[for="gender"] {
+    padding-right: 15px;
+    
+}
+form > h3 {
+    margin-top: 0;
+    font-size: 2.5vw;
+    margin-bottom: 1vw;
+    margin-left: 280px;
+}
+
+form > h4 {
+    font-size: 2vw;
+    padding-top: 2vw;
+}
+
+form > h5 {
+    margin: 0%;
+    font-size: 1.5vw;
+    padding-top: 1vw;
+}
+
+.permission {
+    margin-top: 1vw;
+}
+
+.inside_div {
+    margin-top: 1vw;
+}
+
+form > p {
+    padding-top: 1vw;
+}
+button {
+    margin: 0%;
+    padding: 10px 20px;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: inherit;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+button:hover {
+    background-color: rgb(163, 161, 161);
+    color: black;
+    border: solid 1px black;
+    transition: 500ms;
+    font-size: larger;
+    cursor: pointer;
+}
+
+
+.button {
+    display: flex;
+    justify-content: right;
+   
+}
